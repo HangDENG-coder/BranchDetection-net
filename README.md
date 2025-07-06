@@ -58,7 +58,7 @@ Expected input: 3D TIFF or MAT volumes with voxel annotations for branch points.
 ## 🛠️ GUI for Labeling
 
 Manual annotation GUI described in the thesis can be found here:  
-[https://github.com/venkatachalamlab/Segmentation_GUI](https://github.com/venkatachalamlab/Segmentation_GUI)
+[https://github.com/HangDENG-coder/BranchLabeling](https://github.com/HangDENG-coder/BranchLabeling)
 
 ## 📚 Reference
 
