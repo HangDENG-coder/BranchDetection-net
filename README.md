@@ -34,7 +34,7 @@ python train_weighted.py  # with class weights
 ```bash
 08Prediction_postprocess.ipynb
 ```
-
+![Model Prediction](BranchDetection/model_weights/prediction_proj.png)
 ## 📦 Data
 
 Expected input: 3D TIFF or MAT volumes with voxel annotations for branch points.
