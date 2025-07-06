@@ -1,7 +1,7 @@
 # BranchDetection
 
 Branch point detection in 3D neuron morphology reconstructions with low-resolution mouse brain images. This project implements a 3D optimized U-Net with attention modules to detect branch and terminal points in automated neurite traces.
-
+![Model Architecture](model_weights/PlotNeuralNetwork.png)
 ## 📜 Overview
 
 - Trains and evaluates a deep learning model to correct topological errors in neurite traces.
