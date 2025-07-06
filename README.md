@@ -1,6 +1,6 @@
 # BranchDetection
 
-Branch point detection in 3D neuron morphology reconstructions with low-resolution mouse brain images. This project implements a 3D U-Net with attention modules to detect branch and terminal points in automated neurite traces.
+Branch point detection in 3D neuron morphology reconstructions with low-resolution mouse brain images. This project implements a 3D optimized U-Net with attention modules to detect branch and terminal points in automated neurite traces.
 
 ## 📜 Overview
 
@@ -37,7 +37,7 @@ python train_weighted.py  # with class weights
 
 ## 📦 Data
 
-Expected input: 3D TIFF or MAT volumes with voxel annotations for branch and terminal points.
+Expected input: 3D TIFF or MAT volumes with voxel annotations for branch points.
 
 ## 🛠️ GUI for Labeling
 
