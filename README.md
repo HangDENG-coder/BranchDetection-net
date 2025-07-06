@@ -1,7 +1,9 @@
 # BranchDetection
 
 Branch point detection in 3D neuron morphology reconstructions with low-resolution mouse brain images. This project implements a 3D optimized U-Net with attention modules to detect branch and terminal points in automated neurite traces.
+
 ![Model Architecture](BranchDetection/model_weights/PlotNeuralNetwork.png)
+
 ## 📜 Overview
 
 - Trains and evaluates a deep learning model to correct topological errors in neurite traces.
@@ -23,6 +25,16 @@ Branch point detection in 3D neuron morphology reconstructions with low-resoluti
 - `Prediction_postprocess.ipynb` – post-processing and visualization notebook.
 - `model_weights/` – pre-trained weights, training history, visual plots.
 
+## 🛠️ Requirements & Installation
+
+Install dependencies with:
+
+```bash
+pip install numpy matplotlib torch torchvision scipy scikit-image opencv-python
+```
+
+Ensure your environment supports GPU acceleration for best performance (`torch.cuda`).
+
 ## 🏋️ Training
 
 ```bash
@@ -32,9 +44,13 @@ python train_weighted.py  # with class weights
 ## 🔍 Inference
 
 ```bash
-08Prediction_postprocess.ipynb
+# Run prediction and visualize output
+# Example workflow in notebook:
+jupyter notebook Prediction_postprocess.ipynb
 ```
+
 ![Model Prediction](BranchDetection/model_weights/prediction_proj.png)
+
 ## 📦 Data
 
 Expected input: 3D TIFF or MAT volumes with voxel annotations for branch points.
@@ -49,3 +65,7 @@ Manual annotation GUI described in the thesis can be found here:
 This codebase supports the methods in Chapter 3 of the thesis:
 
 > Deng, Hang. *Machine Learning for 3D Neuron Tracking and Identification in C. elegans, and Key Points Detection*. Northeastern University, 2025.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
