@@ -26,14 +26,13 @@ Branch point detection in 3D neuron morphology reconstructions with low-resoluti
 ## 🏋️ Training
 
 ```bash
-python train.py         # basic training
 python train_weighted.py  # with class weights
 ```
 
 ## 🔍 Inference
 
 ```bash
-python U_test.py
+08Prediction_postprocess.ipynb
 ```
 
 ## 📦 Data
